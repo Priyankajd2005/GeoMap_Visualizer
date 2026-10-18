@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Streamlit generated files
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/settings.json
+.idea/
+
+# Test artefacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Output files (keep the folder itself via .gitkeep)
+outputs/*
+!outputs/.gitkeep
